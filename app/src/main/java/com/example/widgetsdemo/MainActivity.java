@@ -33,9 +33,9 @@ public class MainActivity extends AppCompatActivity {
                     Log.i("spinner", "conditions must be accepted");
             }
         });
-//        RadioGroup radioGroup = findViewById(R.id.radio_group);
-//        int id = radioGroup.getCheckedRadioButtonId();
-//        Log.i("idradio", "itemchecked: " +id);
+        RadioGroup radioGroup = findViewById(R.id.radio_group);
+        int id = radioGroup.getCheckedRadioButtonId();
+        Log.i("idradio", "itemchecked: " +id);
 
     }
     public void itemChecked(View view) {
